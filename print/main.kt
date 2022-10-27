@@ -20,7 +20,18 @@ fun main() {
   
   
   println(name3)
+  
+  /*everything that you should see on your console should be
+  
 
+  Hello World
+  kofi
+  ama
+  5
+  joey3
+  
+  
+  */
 
 
 }
