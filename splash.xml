@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layout_bg" android:background="@color/color_splash_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+				<TextView android:textSize="25.0sp" android:textColor="@color/play_color_text" android:layout_gravity="center_horizontal" android:id="@id/img_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Box Radio" android:fontFamily="@font/frizon" />
+			</LinearLayout>
+			<com.wang.avi.AVLoadingIndicatorView android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:indicatorColor="@color/progressbar_splash" app:indicatorName="BallPulseSyncIndicator" style="@style/AVLoadingIndicatorView" />
+			<TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/info_copyright" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="@font/frizon" />
+		</RelativeLayout>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>
